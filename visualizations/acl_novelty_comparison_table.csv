@@ -1,0 +1,7 @@
+Model,AUC,Recall,F1,Brier Score,Avg Precision,Threshold
+T0: SMOTE Ensemble (Control),0.8721,0.8467,0.5498,0.1,0.4465,0.196
+T1: ADASYN Ensemble,0.8586,0.7737,0.5684,0.1072,0.3931,0.582
+T2: BorderlineSMOTE Ensemble,0.8781,0.8686,0.5721,0.0975,0.4588,0.16
+T3: Cost-Sensitive Ensemble,0.8938,0.8905,0.5768,0.1228,0.4527,0.34
+T4: Cost-Sensitive + Platt Scaling,0.8943,0.9051,0.5767,0.0643,0.4568,0.055
+T5: Cost-Sensitive + Isotonic (★),0.8932,0.9051,0.5863,0.0641,0.4706,0.059
